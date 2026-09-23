@@ -18,3 +18,4 @@ CREATE UNIQUE INDEX IF NOT EXISTS sales_receipt_no_key ON sales (receipt_no);
 
 -- Sales history and daily reports order by this.
 CREATE INDEX IF NOT EXISTS idx_sales_created ON sales (created_at);
+-- baseline applied via webhook

@@ -16,3 +16,4 @@ CREATE TABLE IF NOT EXISTS sale_items (
 
 -- Expand a receipt into its lines.
 CREATE INDEX IF NOT EXISTS idx_sale_items_sale ON sale_items (sale_id);
+-- baseline applied via webhook

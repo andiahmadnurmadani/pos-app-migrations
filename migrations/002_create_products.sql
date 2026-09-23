@@ -17,3 +17,4 @@ CREATE TABLE IF NOT EXISTS products (
 
 -- Category filter on the product grid.
 CREATE INDEX IF NOT EXISTS idx_products_category ON products (category_id);
+-- baseline applied via webhook
